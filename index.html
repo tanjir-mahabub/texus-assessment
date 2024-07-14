@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raw CSS Template</title>
+    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@700&family=Inter:wght@400;600&family=Albert+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="./calendar.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+
+    <header>
+        <!-- Top Bar -->
+        <div class="top-bar">
+            <div class="container">
+                <div class="left-section">
+                    <a href="#">
+                        <img src="./img/top/call.svg" alt="call" />
+                        <span class="text">+370 386 52992</span>
+                    </a>
+                    <a href="#">
+                        <img src="./img/top/envelope.svg" alt="envelope" />
+                        <span class="text">+370 386 52992</span>
+                    </a>
+                </div>
+                <div class="right-section">
+                    <a href="#">
+                        <img src="./img/top/search.svg" alt="search" />
+                    </a>
+                    <a href="#">
+                        <img src="./img/top/read.svg" alt="read" />
+                    </a>
+                    <a href="#">
+                        <img src="./img/top/group.svg" alt="group" />
+                    </a>
+                    <a href="#">
+                        <img src="./img/top/clap.svg" alt="clap" />
+                    </a>
+                    <a href="#">
+                        <img src="./img/top/globe.svg" alt="globe" />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Bar -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="logo">
+                    <a href="/">
+                        <img src="./img/logo.svg" alt="Logo" />
+                    </a>
+                </div>
+                <button id="toggle-btn" class="toggle-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                      </svg>
+                      
+                </button>
+                <div class="main-menu-container">
+                    <div id="close-menu" class="close-menu-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x">
+                            <line x1="18" y1="6" x2="6" y2="18"></line>
+                            <line x1="6" y1="6" x2="18" y2="18"></line>
+                          </svg>
+                          
+                    </div>
+                    <ul class="main-menu">
+                        <li class="has-submenu">
+                            <a href="/apie-mus">
+                                <span>Apie mus</span>
+                            </a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="/renginiai">
+                                <span>Renginiai</span>
+                            </a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="/projektai">
+                                <span>Projektai</span>
+                            </a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="/paslaugos">
+                                <span>Paslaugos</span>
+                                <img src="./img/right-angle.svg" alt="right angle" />
+                            </a>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="/apie-mus">
+                                        <span>Apie mus</span>
+                                        <img src="./img/right-angle.svg" alt="right angle" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/renginiai">
+                                        <span>Renginiai</span>
+                                        <img src="./img/right-angle.svg" alt="right angle" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/projektai">
+                                        <span>Projektai</span>
+                                        <img src="./img/right-angle.svg" alt="right angle" />
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="/paslaugos">
+                                        <span>Paslaugos</span>
+                                        <img src="./img/right-angle.svg" alt="right angle" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/kolektyvai">
+                                        <span>Kolektyvai</span>
+                                        <img src="./img/right-angle.svg" alt="right angle" />
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/padaliniai">
+                                        <span>Padaliniai</span>
+                                        <img src="./img/right-angle.svg" alt="right angle" />
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="/kolektyvai">
+                                <span>Kolektyvai</span>
+                            </a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="/padaliniai">
+                                <span>Padaliniai</span>
+                            </a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="/edukacijos">
+                                <span>Edukacijos</span>
+                            </a>
+                        </li>
+                        <li class="has-submenu">
+                            <a href="/savanorystė">
+                                <span>Savanorystė</span>
+                            </a>
+                        </li>
+                        <li class="animate-btn">
+                            <a href="/kontaktai">
+                                <span>Kontaktai</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" style="background-image: url('./img/hero.png');">
+
+            <div class="hero-shape"></div>
+
+            <div class="hero-content">
+                <div class="hero-content-wrapper">
+                    <h1>Pamatyk save <br>
+                        kultūroje!</h1>
+
+                    <div>
+                        <ul class="content-btn-list">
+                            <li class="animate-btn">
+                                <a href="/renginiai">
+                                    <span>Renginiai</span>
+                                    <span>
+
+                                        <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M4.86424 3.92329L1.07685 0.135964C0.989247 0.0482965 0.872312 0 0.747627 0C0.622941 0 0.506006 0.0482965 0.418408 0.135964L0.139492 0.41481C-0.0419999 0.59651 -0.0419999 0.891824 0.139492 1.07325L3.31986 4.25362L0.135964 7.43752C0.0483657 7.52518 0 7.64205 0 7.76667C0 7.89142 0.0483657 8.00829 0.135964 8.09602L0.414879 8.3748C0.502546 8.46247 0.619413 8.51077 0.744098 8.51077C0.868783 8.51077 0.985719 8.46247 1.07332 8.3748L4.86424 4.58401C4.95205 4.49607 5.00028 4.37865 5 4.25383C5.00028 4.12852 4.95205 4.01117 4.86424 3.92329Z"
+                                                fill="#ffffff" />
+                                        </svg>
+
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="animate-btn">
+                                <a href="/kolektyvai">
+                                    <span>Kolektyvai</span>
+                                    <span>
+
+                                        <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M4.86424 3.92329L1.07685 0.135964C0.989247 0.0482965 0.872312 0 0.747627 0C0.622941 0 0.506006 0.0482965 0.418408 0.135964L0.139492 0.41481C-0.0419999 0.59651 -0.0419999 0.891824 0.139492 1.07325L3.31986 4.25362L0.135964 7.43752C0.0483657 7.52518 0 7.64205 0 7.76667C0 7.89142 0.0483657 8.00829 0.135964 8.09602L0.414879 8.3748C0.502546 8.46247 0.619413 8.51077 0.744098 8.51077C0.868783 8.51077 0.985719 8.46247 1.07332 8.3748L4.86424 4.58401C4.95205 4.49607 5.00028 4.37865 5 4.25383C5.00028 4.12852 4.95205 4.01117 4.86424 3.92329Z"
+                                                fill="#ffffff" />
+                                        </svg>
+
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="animate-btn">
+                                <a href="/padaliniai">
+                                    <span>Padaliniai</span>
+                                    <span>
+
+                                        <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M4.86424 3.92329L1.07685 0.135964C0.989247 0.0482965 0.872312 0 0.747627 0C0.622941 0 0.506006 0.0482965 0.418408 0.135964L0.139492 0.41481C-0.0419999 0.59651 -0.0419999 0.891824 0.139492 1.07325L3.31986 4.25362L0.135964 7.43752C0.0483657 7.52518 0 7.64205 0 7.76667C0 7.89142 0.0483657 8.00829 0.135964 8.09602L0.414879 8.3748C0.502546 8.46247 0.619413 8.51077 0.744098 8.51077C0.868783 8.51077 0.985719 8.46247 1.07332 8.3748L4.86424 4.58401C4.95205 4.49607 5.00028 4.37865 5 4.25383C5.00028 4.12852 4.95205 4.01117 4.86424 3.92329Z"
+                                                fill="#ffffff" />
+                                        </svg>
+
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="animate-btn">
+                                <a href="/projektai">
+                                    <span>Projektai</span>
+                                    <span>
+
+                                        <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M4.86424 3.92329L1.07685 0.135964C0.989247 0.0482965 0.872312 0 0.747627 0C0.622941 0 0.506006 0.0482965 0.418408 0.135964L0.139492 0.41481C-0.0419999 0.59651 -0.0419999 0.891824 0.139492 1.07325L3.31986 4.25362L0.135964 7.43752C0.0483657 7.52518 0 7.64205 0 7.76667C0 7.89142 0.0483657 8.00829 0.135964 8.09602L0.414879 8.3748C0.502546 8.46247 0.619413 8.51077 0.744098 8.51077C0.868783 8.51077 0.985719 8.46247 1.07332 8.3748L4.86424 4.58401C4.95205 4.49607 5.00028 4.37865 5 4.25383C5.00028 4.12852 4.95205 4.01117 4.86424 3.92329Z"
+                                                fill="#ffffff" />
+                                        </svg>
+
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="animate-btn">
+                                <a href="/savanorystė">
+                                    <span>Savanorystė</span>
+                                    <span>
+
+                                        <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M4.86424 3.92329L1.07685 0.135964C0.989247 0.0482965 0.872312 0 0.747627 0C0.622941 0 0.506006 0.0482965 0.418408 0.135964L0.139492 0.41481C-0.0419999 0.59651 -0.0419999 0.891824 0.139492 1.07325L3.31986 4.25362L0.135964 7.43752C0.0483657 7.52518 0 7.64205 0 7.76667C0 7.89142 0.0483657 8.00829 0.135964 8.09602L0.414879 8.3748C0.502546 8.46247 0.619413 8.51077 0.744098 8.51077C0.868783 8.51077 0.985719 8.46247 1.07332 8.3748L4.86424 4.58401C4.95205 4.49607 5.00028 4.37865 5 4.25383C5.00028 4.12852 4.95205 4.01117 4.86424 3.92329Z"
+                                                fill="#ffffff" />
+                                        </svg>
+
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Post Slider Section -->
+        <section class="post-slider-section">
+            <div class="headings">
+                <div>
+                    <h2>Naujienos</h2>
+                </div>
+
+                <div class="button-wrapper">
+                    <div class="animate-btn">
+                        <a href="#">
+                            <span>Visos naujienos</span>
+                            <span>
+                                <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M4.86424 3.92329L1.07685 0.135964C0.989247 0.0482965 0.872312 0 0.747627 0C0.622941 0 0.506006 0.0482965 0.418408 0.135964L0.139492 0.41481C-0.0419999 0.59651 -0.0419999 0.891824 0.139492 1.07325L3.31986 4.25362L0.135964 7.43752C0.0483657 7.52518 0 7.64205 0 7.76667C0 7.89142 0.0483657 8.00829 0.135964 8.09602L0.414879 8.3748C0.502546 8.46247 0.619413 8.51077 0.744098 8.51077C0.868783 8.51077 0.985719 8.46247 1.07332 8.3748L4.86424 4.58401C4.95205 4.49607 5.00028 4.37865 5 4.25383C5.00028 4.12852 4.95205 4.01117 4.86424 3.92329Z"
+                                        fill="#ffffff" />
+                                </svg>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-slider-content">
+                <div class="post-slider-wrapper">
+                    <div class="post-navigation">
+                        <div class="left-arrow">
+                            <button type="button" id="postPrev">
+                                <img src="./img/ArrowLeft.svg" alt="Arrow left" />
+                            </a>
+                        </div>
+
+                        <div class="right-arrow">
+                            <button type="button" id="postNext">
+                                <img src="./img/ArrowRight.svg" alt="Arrow right" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="post-slider">
+                        <div class="post-card">
+                            <div class="post-content-wrapper">
+                                <img src="./img/naujienos/1.png" alt="img-1" />
+    
+                                <div class="post-content">
+                                    <h4>Dokumentinio filmo <br>
+                                        „Nugalėti Galijotą” peržiūra</h4>
+                                    <img src="./img/ArrowUpRight.svg" alt="Arrow up right" />
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="post-card">
+                            <div class="post-content-wrapper">
+                                <img src="./img/naujienos/2.png" alt="img-2" />
+    
+                                <div class="post-content">
+                                    <h4>Respublikinis šokių <br>
+                                        festivalis „Šokanti Ignalina“
+                                        2024</h4>
+                                    <img src="./img/ArrowUpRight.svg" alt="Arrow up right" />
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="post-card">
+                            <div class="post-content-wrapper">
+                                <img src="./img/naujienos/3.png" alt="img-3" />
+    
+                                <div class="post-content">
+                                    <h4>Ąžuoliuko sodinimo <br>
+                                        ceremonija</h4>
+                                    <img src="./img/ArrowUpRight.svg" alt="Arrow up right" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Calander Section -->
+        <section class="calendar-section">
+            <div class="shape">
+                <div class="left-logo">
+                    <img src="./img/left-logo.svg" alt="Left Logo" />
+                </div>
+                <div class="right-logo">
+                    <img src="./img/right-logo.svg" alt="Right Logo" />
+                </div>
+            </div>
+            <div class="calendar-container">
+                <div class="calendar-wrapper">
+                    <div class="calendar">
+                        <div class="calendar-header">
+                            <div class="month-wrapper">
+                                <span class="month-picker" id="month-picker"> Liepa </span>
+                                <span class="day-picker" id="day-picker"> Trečiadienis, 05-19  </span>
+                            </div>
+                            <div class="month-picker-arrows">
+                                <span class="month-change" id="prev-month">
+                                    <img src="./img/leftAngle.svg" alt="Left Angle" />
+                                </span>
+                                <span class="month-change" id="next-month">
+                                    <img src="./img/rightAngle.svg" alt="Right Angle" />
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="calendar-body">
+                            <div class="calendar-week-days">
+                                <div>P</div>
+                                <div>A</div>
+                                <div>T</div>
+                                <div>K</div>
+                                <div>P</div>
+                                <div>Š</div>
+                                <div>S</div>
+                            </div>
+                            <div class="calendar-days">
+                            </div>
+                        </div>
+                        <div class="calendar-footer">
+                        </div>
+                        <div class="month-list"></div>
+                    </div>
+                </div>
+                <div class="event-wrapper">
+                    <div class="event-card">
+                        <div class="headings">
+                            <h4>Renginiai</h4>
+                        </div>
+                        <div class="event-card-body">
+                            <div class="left-col">
+                                <p class="date">19</p>
+                                <p class="month">Gegužės</p>
+                            </div>
+                            <div class="right-col">
+                                <h5>Ąžuoliuko sodinimo ceremonija</h5>
+                                <div class="event-info">
+                                    <img src="./img/clock.svg" alt="Clock" />
+                                    <p>18:00 -19:00</p>
+                                </div>
+                                <div class="event-info">
+                                    <img src="./img/location.svg" alt="Clock" />
+                                    <p>Prie Ignalinos rajono kultūros centro (Ateities g. 43)</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="event-card-body">
+                            <div class="left-col">
+                                <p class="date">19</p>
+                                <p class="month">Gegužės</p>
+                            </div>
+                            <div class="right-col">
+                                <h5>Ąžuoliuko sodinimo ceremonija</h5>
+                                <div class="event-info">
+                                    <img src="./img/clock.svg" alt="Clock" />
+                                    <p>18:00 -19:00</p>
+                                </div>
+                                <div class="event-info">
+                                    <img src="./img/location.svg" alt="Clock" />
+                                    <p>Prie Ignalinos rajono kultūros centro (Ateities g. 43)</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="button-wrapper">
+                            <div class="animate-btn">
+                                <a href="#">
+                                    <span>Visi renginiai</span>
+                                    <span>
+                                        <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M4.86424 3.92329L1.07685 0.135964C0.989247 0.0482965 0.872312 0 0.747627 0C0.622941 0 0.506006 0.0482965 0.418408 0.135964L0.139492 0.41481C-0.0419999 0.59651 -0.0419999 0.891824 0.139492 1.07325L3.31986 4.25362L0.135964 7.43752C0.0483657 7.52518 0 7.64205 0 7.76667C0 7.89142 0.0483657 8.00829 0.135964 8.09602L0.414879 8.3748C0.502546 8.46247 0.619413 8.51077 0.744098 8.51077C0.868783 8.51077 0.985719 8.46247 1.07332 8.3748L4.86424 4.58401C4.95205 4.49607 5.00028 4.37865 5 4.25383C5.00028 4.12852 4.95205 4.01117 4.86424 3.92329Z"
+                                                fill="#ffffff" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Social Share Section -->
+        <section class="social-share-section">
+
+            <div class="headings-wrapper">
+                <div class="headings">
+                    <div class="left-col">
+                        <h3>Apie mus</h3>
+    
+                        <div class="button-wrapper">
+                            <div class="animate-btn">
+                                <a href="#">
+                                    <span>Daugiau</span>
+                                    <span>
+                                        <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M4.86424 3.92329L1.07685 0.135964C0.989247 0.0482965 0.872312 0 0.747627 0C0.622941 0 0.506006 0.0482965 0.418408 0.135964L0.139492 0.41481C-0.0419999 0.59651 -0.0419999 0.891824 0.139492 1.07325L3.31986 4.25362L0.135964 7.43752C0.0483657 7.52518 0 7.64205 0 7.76667C0 7.89142 0.0483657 8.00829 0.135964 8.09602L0.414879 8.3748C0.502546 8.46247 0.619413 8.51077 0.744098 8.51077C0.868783 8.51077 0.985719 8.46247 1.07332 8.3748L4.86424 4.58401C4.95205 4.49607 5.00028 4.37865 5 4.25383C5.00028 4.12852 4.95205 4.01117 4.86424 3.92329Z"
+                                                fill="#ffffff" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-col">
+                        <p>Dabartinis <b>Ignalinos rajono kultūros centras</b> puoselėja, skleidžia įvairias kultūros sritis ir žanrus. Mūsų tikslas – puoselėti etninę kultūrą, mėgėjų meną, inicijuoti, rengti ir įgyvendinti kultūrinius, meninius, edukacinius projektus, plėtoti šviečiamąją (edukacinę), pramoginę veiklą, tenkinti bendruomenės kultūrinius poreikius, organizuoti profesionalaus meno sklaidą. </p>
+                    </div>
+                </div>
+            </div>
+
+            <img class="social-share-img" src="./img/apie-mus.png" alt="Apie mus" />
+            
+            <div class="social-share-wrapper">
+                <div class="social-links">
+                    <p>Sekite mūsų naujienas</p>
+                    <a href="#">
+                        <img src="./img/social/facebook.svg" alt="Facebook" /> 
+                    </a>                   
+                </div>
+                <div class="social-links">
+                    <p>Bendraukime Instagram</p>
+                    <a href="#">
+                        <img src="./img/social/instagram.svg" alt="Instagram" />
+                    </a>                 
+                </div>
+                <div class="social-links">
+                    <p>Video įrašai</p>
+                    <a href="#">
+                        <img src="./img/social/youtube.svg" alt="Youtube" />        
+                    </a>            
+                </div>
+            </div>
+        </section>
+       
+    </main>
+
+    <!-- Footer -->
+    <footer>
+
+        <div class="icon-slider-section">
+            <div class="icon-slider-shape">
+
+                <svg width="287" height="648" viewBox="0 0 287 648" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g opacity="0.3" clip-path="url(#clip0_69_109)">
+                        <path d="M205.119 466.536L206.176 467.622L468.378 205.75L467.29 204.663L205.119 466.536Z"
+                            fill="#AAB3DB" />
+                        <path d="M252.622 568.316L253.71 569.372L515.881 307.5L514.823 306.413L252.622 568.316Z"
+                            fill="#AAB3DB" />
+                        <path d="M131.751 6.17576L132.839 5.11933L395.01 266.992L393.953 268.048L131.751 6.17576Z"
+                            fill="#AAB3DB" />
+                        <path
+                            d="M0.000724798 124.196L1.08852 123.139L263.26 385.012L262.202 386.068L0.000724798 124.196Z"
+                            fill="#AAB3DB" />
+                        <path d="M150.486 109.193L151.574 108.106L413.745 370.009L412.687 371.065L150.486 109.193Z"
+                            fill="#AAB3DB" />
+                        <path d="M32.3337 528.232L33.4215 529.288L295.593 267.416L294.535 266.359L32.3337 528.232Z"
+                            fill="#AAB3DB" />
+                        <path d="M88.5383 135.935L89.6261 134.878L351.797 396.751L350.74 397.837L88.5383 135.935Z"
+                            fill="#AAB3DB" />
+                    </g>
+                    <defs>
+                        <clipPath id="clip0_69_109">
+                            <rect width="425" height="648" fill="white" transform="translate(425 648) rotate(-180)" />
+                        </clipPath>
+                    </defs>
+                </svg>
+
+            </div>
+
+            <div class="icon-slider-container">
+                <div class="headings">
+                    <div>
+                        <h2>Mūsų draugai ir partneriai</h2>
+                    </div>
+
+                    <div class="icon-navigation">
+                        <div class="left-arrow">
+                            <button id="iconPrev" type="button">
+                                <img src="./img/ArrowLeft.svg" alt="Arrow left" />
+                            </button>
+                        </div>
+
+                        <div class="right-arrow">
+                            <button id="iconNext" type="button">
+                                <img src="./img/ArrowRight.svg" alt="Arrow right" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="icon-slider-wrapper">
+                    <div class="icon-slider">
+                        <div class="icon-card">
+                            <img src="./img/partneriai.svg" alt="partneriai" />
+    
+                            <p>Ignalinos rajono savivaldybė</p>
+                        </div>
+                        <div class="icon-card">
+                            <img src="./img/partneriai.svg" alt="partneriai" />
+    
+                            <p>Ignalinos rajono savivaldybė</p>
+                        </div>
+                        <div class="icon-card">
+                            <img src="./img/partneriai.svg" alt="partneriai" />
+    
+                            <p>Ignalinos rajono savivaldybė</p>
+                        </div>
+                        <div class="icon-card">
+                            <img src="./img/partneriai.svg" alt="partneriai" />
+    
+                            <p>Ignalinos rajono savivaldybė</p>
+                        </div>
+                        <div class="icon-card">
+                            <img src="./img/partneriai.svg" alt="partneriai" />
+    
+                            <p>Ignalinos rajono savivaldybė</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        
+        <div class="footer">
+            <div class="main-footer">
+                <div class="footer-section">
+                    <img src="./img/footer-logo.svg" alt="Footer Logo" />
+                    <div class="social-links">
+                        <a href="#">
+                            <img src="./img/footer/facebook.png" alt="Facebook" />
+                        </a>
+                        <a href="#">
+                            <img src="./img/footer/instagram.svg" alt="Instragram" />
+                        </a>
+                        <a href="#">
+                            <img src="./img/footer/youtube.svg" alt="Youtube" />
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <div class="address-container">
+                        <div class="address-wrapper">
+                            <img src="./img/footer/location.svg" alt="Facebook" />
+                            <p>
+                                <b>Ignalinos rajono kultūros centras</b>
+                                Ateities g. 43, LT-30119, Ignalina
+                                Įmonės kodas: 305616878
+                            </p>
+                        </div>
+                        <div class="contact-wrapper">
+                            <img src="./img/footer/call.svg" alt="Instragram" />
+    
+                            <div class="contact">
+                                <p>Bilietų kasa</p>
+                                <p class="tel">+370 615 91323</p>
+                            </div>
+                        </div>
+                        <div class="contact-wrapper">
+                            <img src="./img/footer/call.svg" alt="Instragram" />
+    
+                            <div class="contact">
+                                <p>Direktorius</p>
+                                <p class="tel">+370 686 95225</p>
+                            </div>
+                        </div>
+                        <div class="contact-wrapper">
+                            <img src="./img/footer/envelope.svg" alt="Instragram" />
+    
+                            <div class="contact">
+                                <p class="email">info@irkc.lt</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="footer-section">
+                    <div class="info-links-wrapper">
+                        <h6>Informacija</h6>
+    
+                        <div class="info-links">
+                            <a href="#" class="info-wrapper">
+                                <img src="./img/footer/Arrow.svg" alt="Instragram" />
+                                <p>Administracinė informacija</p>
+                            </a>
+                            <a href="#" class="info-wrapper">
+                                <img src="./img/footer/Arrow.svg" alt="Instragram" />
+                                <p>Korupcijos prevencija</p>
+                            </a>
+                            <a href="#" class="info-wrapper">
+                                <img src="./img/footer/Arrow.svg" alt="Instragram" />
+                                <p>Asmens duomenų apsauga</p>
+                            </a>
+                            <a href="#" class="info-wrapper">
+                                <img src="./img/footer/Arrow.svg" alt="Instragram" />
+                                <p>Teisinė informacija</p>
+                            </a>
+                            <a href="#" class="info-wrapper">
+                                <img src="./img/footer/Arrow.svg" alt="Instragram" />
+                                <p>Veiklos sritys</p>
+                            </a>
+                            <a href="#" class="info-wrapper">
+                                <img src="./img/footer/Arrow.svg" alt="Instragram" />
+                                <p>Kontaktai</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="footer-section">
+                    <div class="apklausa-wrapper">
+                        <h6>Apklausa</h6>
+                        <p>Kviečiame įvertinti <b>Všį Ignalinos
+                                rajono kultūros centro</b> paslaugų kokybę</p>
+                        <div class="button-wrapper">
+                            <div class="animate-btn">
+                                <a href="#">
+                                    <span>Vertinti</span>
+                                    <span>
+                                        <svg width="5" height="9" viewBox="0 0 5 9" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M4.86424 3.92329L1.07685 0.135964C0.989247 0.0482965 0.872312 0 0.747627 0C0.622941 0 0.506006 0.0482965 0.418408 0.135964L0.139492 0.41481C-0.0419999 0.59651 -0.0419999 0.891824 0.139492 1.07325L3.31986 4.25362L0.135964 7.43752C0.0483657 7.52518 0 7.64205 0 7.76667C0 7.89142 0.0483657 8.00829 0.135964 8.09602L0.414879 8.3748C0.502546 8.46247 0.619413 8.51077 0.744098 8.51077C0.868783 8.51077 0.985719 8.46247 1.07332 8.3748L4.86424 4.58401C4.95205 4.49607 5.00028 4.37865 5 4.25383C5.00028 4.12852 4.95205 4.01117 4.86424 3.92329Z"
+                                                fill="#ffffff" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="left-col">
+                    <p>Ignalinos rajono kultūros centras . Visos teisės saugomos</p>
+                    <p>Slapukų parinktys</p>
+                    <p>Duomenų apsauga</p>
+                </div>
+                <div class="right-col">
+                    <p>Sukurta: TEXUS</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./calendar.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
